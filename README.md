@@ -28,5 +28,14 @@ A: Four Pillars are as follow:
 2. Quality
 3.Monitoring
 4. Testing
+<br></br>
+21st January, 2025
+<br></br>
+DEVOPS LECTURE 2:
+<br></br>
+SDLC:
+<br></br>
+We discussed phases of software development life cycle. Devops engineer comes mainly comes into picture at Building/development, testing and deployment phase. In development/building phase, the developer build the product and put its source code on some central point like Git and then QA team check this git code or test on virtual server and after successful testing this is put on the production environment means we deploy the product. So, the job of devops engineer is to automate all this process (building, testing, and deployment) and to make all this process fast/efficient.  Devops engineer itself don’t build, or test the product this is the job of a developer and tester respectively, Devops engineer just automate this process. 
+
 
 Author-Abdullah

@@ -52,5 +52,16 @@ Now we take a same example of rented area in that portion as well. Let suppose t
 HYPERVISOR
 <br></br>
 Hypervisor is a software, firmware or a hardware that allows one physical computer to run multiple virtual machines, each operating as if it were an independent machine.
+<br></br>
+23rd January, 2025
+<br></br>
+DEVOPS LECTURE 4:
+<br></br>
+Let suppose you have 100 requests to build a virtual machine so manually you have to login 100 times on aws or azure console and then make/request 100 virtual machines. But as a devops engineer our end goal is efficiency and automation so what we can do instead of logging in 100 times and manually make virtual machines what we can do? We write a scripts. The developer at amazon or devops engineer at amazon can expose an API and the user or devops engineer in an organization can write a script that request for aws API and in response they get a EC2 instance. (and the request must be valid, authenticated and authorized).
+<br></br>
+Q: When is terraform used?
+<br></br>
+A: the organization that used hybrid cloud pattern uses terraform (Hybrid cloud platform means some organization have their virtual machines in one cloud platform and other resources on other cloud platform).
+
 
 Author-Abdullah

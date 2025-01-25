@@ -62,6 +62,23 @@ Let suppose you have 100 requests to build a virtual machine so manually you hav
 Q: When is terraform used?
 <br></br>
 A: the organization that used hybrid cloud pattern uses terraform (Hybrid cloud platform means some organization have their virtual machines in one cloud platform and other resources on other cloud platform).
+<br></br>
+24th January, 2025
+<br></br>
+DEVOPS LECTURE 5:
+<br></br>
+Make an account on aws and install a Mobatech
+<br></br>
+25th January, 2025
+<br></br>
+DEVOPS LECTURE 6:
+<br></br>
+Now first we will login to the virtual machine. First we do a login through aws console/UI. Now imagine you have 100 virtual machines. So, it’s a very difficult and boring task to login 100 times through aws UI/console (by going through aws console..click on login button etc blaa blaa) and also by logining in through aws you use aws terminal but people usually use/prefer fancy terminals like mobatech etc
+<br></br>
+AWS CLI:
+<br></br>
+It is an aws command line interface. Through this we can easily interact with aws services and create any resources on aws CLI and account.
+
 
 
 Author-Abdullah

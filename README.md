@@ -78,6 +78,24 @@ Now first we will login to the virtual machine. First we do a login through aws 
 AWS CLI:
 <br></br>
 It is an aws command line interface. Through this we can easily interact with aws services and create any resources on aws CLI and account.
+<br></br>
+26th January, 2025
+<br></br>
+DEVOPS LECTURE 7:
+<br></br>
+Operating System is a medium between software and hardware or it acts as a communication bridge between software and hardware.
+<br></br>
+As a user you’re installing an application on server then your server communicates with Operating System which further (operating system) communicate with the hardware like CPU etc  
+<br></br>
+Q: Why Linux is used among IT industry?
+<br></br>
+A: <br></br>
+1.	Linux is free/open source<br></br>
+2.	Linux is secure<br></br>
+3.	You don’t have to install any kind of anti-viruses because most of the time Linux is secure<br></br>
+4.	Linux have many distributions like ubuntu, redhat etc<br></br>
+5.	The one thing that must have to be on your production system is speed (Like operating system must be fast. If operating system is slow then no matter how good you make an application or how modern technology you used, ultimately it causes many issues and problems). So, Linux is fast as compared to Windows<br></br>
+
 
 
 

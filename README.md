@@ -95,8 +95,25 @@ A: <br></br>
 3.	You don’t have to install any kind of anti-viruses because most of the time Linux is secure<br></br>
 4.	Linux have many distributions like ubuntu, redhat etc<br></br>
 5.	The one thing that must have to be on your production system is speed (Like operating system must be fast. If operating system is slow then no matter how good you make an application or how modern technology you used, ultimately it causes many issues and problems). So, Linux is fast as compared to Windows<br></br>
-
-
-
+<br></br>
+VERY BASIC UNDERSTANDING OF LINUX ARCHITECTURE:<br></br>
+Heart of Linux OS is kernel<br></br>
+Compilers, User Processes, System Software
+System Libraries
+Kernel
+<br></br>
+The responsibility of kernel is to establish a communication between software and hardware.<br></br>
+Primary responsibilities of kernel are as follow:<br></br>
+1.	Device Management<br></br>
+2.	Memory Management<br></br>
+3.	Process Management<br></br>
+4.	Handling System Related calls<br></br>
+After kernal we have system libraries, System libraries are basically responsible for performing a task. Like user wants to do a certain task it first goes to system library and then to kernel<br></br>
+FUNDAMENTALS OF SHELL SCRIPTING:<br></br>
+Q: What is shell?<br></br>
+A: Shell is a way that you talk to your OS.<br></br> 
+Let suppose you want to create a file. So, it is very easy in Windows due to UI but let suppose you are working in a software house where there is not a proper UI for server or production environment so what you have to do now? You have to write commands to deal/communicate with server so somehow this type of thing is a shell scripting<br></br>
+IMP NOTE: Linux is an operating system. Ubuntu, centos, fedora are Linux distributions<br></br>
+Distributions are just vendors that provide Linux Operating System.
 
 Author-Abdullah

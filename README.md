@@ -115,5 +115,34 @@ A: Shell is a way that you talk to your OS.<br></br>
 Let suppose you want to create a file. So, it is very easy in Windows due to UI but let suppose you are working in a software house where there is not a proper UI for server or production environment so what you have to do now? You have to write commands to deal/communicate with server so somehow this type of thing is a shell scripting<br></br>
 IMP NOTE: Linux is an operating system. Ubuntu, centos, fedora are Linux distributions<br></br>
 Distributions are just vendors that provide Linux Operating System.
+<br></br>
+28th January, 2025
+<br></br>
+DEVOPS LECTURE 8:
+<br></br>
+Q: What is Bash?<br></br>
+A:<br></br>
+Bash (short for Bourne Again Shell) is a command-line interpreter or shell used in Unix-based operating systems like Linux and macOS. It is a powerful tool for interacting with the operating system, automating tasks, and managing system resources. Bash is both a command language for executing commands and a scripting language for writing scripts to automate repetitive tasks.<br></br>
+Key Features of Bash:<br></br>
+1.	Command Execution: Bash allows users to run commands to manage files, directories, processes, and more.<br></br>
+2.	Scripting: It supports scripting for automating tasks, using loops, conditionals, and functions.<br></br>
+3.	Built-in Tools: Includes utilities like grep, awk, sed, and others for text processing and task automation.<br></br>
+4.	Environment Customization: Allows users to define variables, aliases, and functions to tailor their environment.<br></br>
+5.	Job Control: Supports background processes and job control for multitasking.<br></br>
+6.	Command History: Tracks commands you've run before, enabling you to re-execute them quickly.<br></br>
+Common Use Cases:<br></br>
+•	Automating repetitive system administration tasks (e.g., backups, updates).<br></br>
+•	Writing shell scripts for DevOps pipelines.<br></br>
+•	Running and managing server environments.<br></br>
+•	Manipulating files and processing text data.<br></br>
+•	Configuring software environments.<br></br>
+Example Commands:<br></br>
+•	ls: List files and directories.<br></br>
+•	cd: Change the current directory.<br></br>
+•	echo "Hello, World!": Print a message.<br></br>
+•	grep "keyword" file.txt: Search for a keyword in a file.<br></br>
+•	bash script.sh: Execute a Bash script.<br></br>
+In summary, Bash is a fundamental tool for developers, sysadmins, and anyone working in Unix-like environments due to its versatility and simplicity.<br></br>
+
 
 Author-Abdullah

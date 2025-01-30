@@ -144,5 +144,14 @@ Example Commands:<br></br>
 •	bash script.sh: Execute a Bash script.<br></br>
 In summary, Bash is a fundamental tool for developers, sysadmins, and anyone working in Unix-like environments due to its versatility and simplicity.<br></br>
 
+SHELL SCRIPTING:
+<br></br>
+For the memory, we use command free or free -g
+For CPU, we use the command nproc (Number of processing units)
+For disk, we use the command df -h (disk filesystem)
+For all things all at-once, we use the command top (table of processes)
+In case of ls -l or ls -ltr commands, we get a list like this -rwr—something like this so if this starts with dwr-rw—so in that case d means it is a directory.<br></br>
+
+
 
 Author-Abdullah

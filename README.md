@@ -172,6 +172,10 @@ EXECUTION:
 <br></br>
 Now in order to execute the script either you use ./file name or sh file name but when you hit enter it shows you “permission denied”. Either you make a file by yourself and write content by yourself but still linux ask you to first let me know who can execute this script or file because linux is very secure. So, in order to execute script or file you first have to set permissions <br></br>
 
+CHMOD COMMAND:<br></br>
+Chmod command basically changes the modification of the file. It has 3 categories like what permission a root user/administrator have, what permissions a group have and what permissions you have or anyone have? So, in order to give a permission there’s a magic number 7 which splits into formula 4,2,1. 4 means reads, 2 means write and 1 means execute. When I write this command on terminal (chmod 777 file name) it means to give all access to user, group and you or anyone (7 means full/all access: read, write and execute) and if you write this command: (chmod 444 file name ) now it means your user, group and you or anyone can only read the file and don’t write and execute the file.<br></br>
+
+
 
 
 

@@ -168,6 +168,9 @@ A: <br></br>
 We use bash. They all are approximately similar with a little bit difference but it is very important to use the appropriate one. Now a days ksh is outdated most of the people uses bash and sh. And sh is indirectly a bash. Why I said this? Because when we use sh it makes a link with bash so that’s why I said that it is indirectly a bash. 
 Let suppose you give a sh script to your colleague and on his machine same sh script doesnot run. Do you know why? The reason is from last year linux/ubuntu makes a linking with dash instead of bash so you don’t know that the sh on your friends/colleague machines link with what so that’s why there’s a chance of an error.
 So, use of bash is preferable.<br></br>
+EXECUTION:
+<br></br>
+Now in order to execute the script either you use ./file name or sh file name but when you hit enter it shows you “permission denied”. Either you make a file by yourself and write content by yourself but still linux ask you to first let me know who can execute this script or file because linux is very secure. So, in order to execute script or file you first have to set permissions <br></br>
 
 
 

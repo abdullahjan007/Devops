@@ -146,11 +146,30 @@ In summary, Bash is a fundamental tool for developers, sysadmins, and anyone wor
 
 SHELL SCRIPTING:
 <br></br>
-For the memory, we use command free or free -g
-For CPU, we use the command nproc (Number of processing units)
-For disk, we use the command df -h (disk filesystem)
-For all things all at-once, we use the command top (table of processes)
-In case of ls -l or ls -ltr commands, we get a list like this -rwr—something like this so if this starts with dwr-rw—so in that case d means it is a directory.<br></br>
+For the memory, we use command free or free -g<br></br>
+For CPU, we use the command nproc (Number of processing units)<br></br>
+For disk, we use the command df -h (disk filesystem)<br></br>
+For all things all at-once, we use the command top (table of processes)<br></br>
+In case of ls -l or ls -ltr commands, we get a list like this -rwr—something like this so if this starts with dwr-rw—so in that case d means it is a directory.
+
+<br></br>
+30th January, 2025
+<br></br>
+DEVOPS LECTURE 9:<br></br>
+Shell scripting is mainly used to automate the process<br></br>
+Touch command is used for automation. Vi or vim command is used to create and opens/write the file at the same time but touch is used to only create the file.<br></br>
+Q: Now question is why we use touch if vi or vim do the same work and have the more advantage than touch?<br></br>
+A: Touch command is used for automation. Let suppose if someone comes and said Abullah make 100 files and if I use vim then it creates and opens the file at the same time so it makes an issue by opening all the 100 files at the same time which cause our machine to crash, that’s why we use touch command instead of vi or vim<br></br>
+SHELL SCRIPTING:<br></br>
+While writing the shell script the first command is shebang (#!) after shebang we write /bin/bash. 
+Now understanding of the first line is very important. Some people use bash, some use ksh, some use sh and some use dash. Now question is what are the sh, ksh, bash, dash and many more? So, the answer is these are like the one who is responsible to execute our script like in case of java jdk is responsible for execution so these bash, sh and others are something like that.<br></br>
+Q: Which one should we use?<br></br>
+A: <br></br>
+We use bash. They all are approximately similar with a little bit difference but it is very important to use the appropriate one. Now a days ksh is outdated most of the people uses bash and sh. And sh is indirectly a bash. Why I said this? Because when we use sh it makes a link with bash so that’s why I said that it is indirectly a bash. 
+Let suppose you give a sh script to your colleague and on his machine same sh script doesnot run. Do you know why? The reason is from last year linux/ubuntu makes a linking with dash instead of bash so you don’t know that the sh on your friends/colleague machines link with what so that’s why there’s a chance of an error.
+So, use of bash is preferable.<br></br>
+
+
 
 
 

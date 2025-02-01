@@ -175,6 +175,29 @@ Now in order to execute the script either you use ./file name or sh file name bu
 CHMOD COMMAND:<br></br>
 Chmod command basically changes the modification of the file. It has 3 categories like what permission a root user/administrator have, what permissions a group have and what permissions you have or anyone have? So, in order to give a permission there’s a magic number 7 which splits into formula 4,2,1. 4 means reads, 2 means write and 1 means execute. When I write this command on terminal (chmod 777 file name) it means to give all access to user, group and you or anyone (7 means full/all access: read, write and execute) and if you write this command: (chmod 444 file name ) now it means your user, group and you or anyone can only read the file and don’t write and execute the file.<br></br>
 
+31st January, 2025
+<br></br>
+DEVOPS LECTURE 10 (Lec 9 Part 2):<br></br>
+Famous commands:<br></br>
+Touch-> to make file<br></br>
+Cat -> If we don’t want to open the file just want to read the contents of the file then we use cat command<br></br>
+Echo -> it is used to print text or variable on terminal<br></br>
+Ls -> list all the files and folders in a directory <br></br>
+Ls -l or ls -ltr -> to show detail listings with timestamp<br></br>
+Pwd -> present working directory<br></br>
+Cd -> change directory<br></br>
+Vi or vim-> to create or write in a file using esc and I <br></br>
+:wq!-> to write and save and then quit the file<br></br>
+Man -> to show manual along with suffix<br></br>
+Mkdir -> make directory along with suffix as a name<br></br>
+Rm -rf -> remove directory along with suffix as a name<br></br>
+Chmod->to change modifications of the file/grant permissions to the file<br></br>
+History-> it shows you all the history like what command you used<br></br>
+:q-> to simply quit the file without saving<br></br>
+COMMENTS<br></br>
+Comments are written by hashtag(#) in shell script<br></br>
+
+
 
 
 

@@ -197,6 +197,19 @@ History-> it shows you all the history like what command you used<br></br>
 COMMENTS<br></br>
 Comments are written by hashtag(#) in shell script<br></br>
 
+HOW TO WRITE A SCRIPT<br></br>
+First create and open a file using vim command and in that file write a script (As it’s my first script so I write a very easy and simple script : just make a directory name abd using mkdir command and then move to that directory using cd command and then create 2 files in abd using touch command) after that I save a file using :wq! Command and then set or grant permissions using chmod and then execute usin ./file name<br></br>
+FIRST SCRIPT<br></br>
+Vim sample-shell-script.sh<br></br>
+INSIDE FILE / ACTUAL SCRIPT<br></br>
+#!/bin/bash<br></br>
+Mkdir abd<br></br>
+Cd abd<br></br>
+Touch file1.txt file2.txt<br></br>
+OUTSIDE FILE / ACTUAL SCRIPT<br></br>
+Chmod 777 sample-shell-script.sh<br></br>
+./sample-shell-script.sh<br></br>
+
 
 
 

@@ -210,6 +210,14 @@ OUTSIDE FILE / ACTUAL SCRIPT<br></br>
 Chmod 777 sample-shell-script.sh<br></br>
 ./sample-shell-script.sh<br></br>
 
+PURPOSE OF SHELL SCRIPTING IN DEVOPS<br></br>
+Devops engineer can do many things like <br></br>
+1.	infrastructure maintenance (to maintain the infrastructure of the organization)<br></br>
+2.	code maintenance using git repositories (and most of the time they use linux because it is secure)<br></br>
+3.	configuration management (there are also some tools available like ansible for this but still we write more scripts with more parameters according to our need).<br></br>
+
+Let suppose there’s a guy name John working in amazon and the team in which they are working with using 1000 virtual machines (Linux). Now, developers’ complaint about node health or like their machine is working slowly. So, instead of checking the node health of all the 1000 machines manually what john do? He simply writes a script that automatically checks the machine and informed about the issue via email or some other resource. Now, John observes that this slow speed is due to memory shortage so he writes a custom script that automatically after two days check all the 1000 machines and informs John via email about performance like we found 10 suspicious machines from which 5 are due to memory and 5 are due to RAM. So, with the help of scripts the work of John become easier. <br></br>
+
 
 
 

@@ -224,6 +224,8 @@ Let suppose we will write a custom shell script and put it in a git repository a
 CUSTOM SHELL SCRIPT:<br></br>
 Always write a meta data before the start of the script like (author name, date when script is written, purpose of the script and its version)
 After this write the script and let suppose we write three command nproc, free -g and df -h and when we execute the script, we saw the combine output but don’t know which output is of which command so we can use an echo statement which works like a print statement (means before every output we get a print statement like: number of processes blaa blaa and then its output). <br></br>
+set -x<br></br>
+This approach is good but not best because let suppose if we have a 1000-line long scripts and 100 commands so we have to write echo statement every time which creates issue so what we do instead of that? We simply write set -x at the start of every script (-x represents this script is in debug mode) and output is something like this: Before the execution or output of the command we saw the command written itself like nproc or df -h. And also, sometimes we don’t want our user to see what commands should we use so, in that scenario we simply comment set -x.
 
 
 

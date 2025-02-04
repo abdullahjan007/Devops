@@ -218,6 +218,13 @@ Devops engineer can do many things like <br></br>
 
 Let suppose there’s a guy name John working in amazon and the team in which they are working with using 1000 virtual machines (Linux). Now, developers’ complaint about node health or like their machine is working slowly. So, instead of checking the node health of all the 1000 machines manually what john do? He simply writes a script that automatically checks the machine and informed about the issue via email or some other resource. Now, John observes that this slow speed is due to memory shortage so he writes a custom script that automatically after two days check all the 1000 machines and informs John via email about performance like we found 10 suspicious machines from which 5 are due to memory and 5 are due to RAM. So, with the help of scripts the work of John become easier. <br></br>
 
+DEVOPS LECTURE 11 (Advance Shell Script):<br></br>
+We will write a custom shell script which will detect the node health of our virtual machine. <br></br>
+Let suppose we will write a custom shell script and put it in a git repository and if some one come to us and said I have a problem with my machine so we just run the script in that machine and be able to know or detect the issue.<br></br>
+CUSTOM SHELL SCRIPT:<br></br>
+Always write a meta data before the start of the script like (author name, date when script is written, purpose of the script and its version)
+After this write the script and let suppose we write three command nproc, free -g and df -h and when we execute the script, we saw the combine output but don’t know which output is of which command so we can use an echo statement which works like a print statement (means before every output we get a print statement like: number of processes blaa blaa and then its output). <br></br>
+
 
 
 

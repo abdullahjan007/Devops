@@ -225,7 +225,31 @@ CUSTOM SHELL SCRIPT:<br></br>
 Always write a meta data before the start of the script like (author name, date when script is written, purpose of the script and its version)
 After this write the script and let suppose we write three command nproc, free -g and df -h and when we execute the script, we saw the combine output but don’t know which output is of which command so we can use an echo statement which works like a print statement (means before every output we get a print statement like: number of processes blaa blaa and then its output). <br></br>
 set -x<br></br>
-This approach is good but not best because let suppose if we have a 1000-line long scripts and 100 commands so we have to write echo statement every time which creates issue so what we do instead of that? We simply write set -x at the start of every script (-x represents this script is in debug mode) and output is something like this: Before the execution or output of the command we saw the command written itself like nproc or df -h. And also, sometimes we don’t want our user to see what commands should we use so, in that scenario we simply comment set -x.
+This approach is good but not best because let suppose if we have a 1000-line long scripts and 100 commands so we have to write echo statement every time which creates issue so what we do instead of that? We simply write set -x at the start of every script (-x represents this script is in debug mode) and output is something like this: Before the execution or output of the command we saw the command written itself like nproc or df -h. And also, sometimes we don’t want our user to see what commands should we use so, in that scenario we simply comment set -x.<br></br>
+
+Ps -ef<br></br>
+This is used to print the number of processes in your machine. Let suppose you are using chrome which uses a process, you are using a youtube application which uses and process and some other system processes. So, you use the command ps -ef. You can simply use the ps but it doesnot give you all the processes but when you use ps -ef it gives you all the processes. Ps means processes and -ef means entire details of process in full format.
+When you see all the processes running on your system by using ps -ef command. Now , your task is to not just find out the processes but also find out the process ids <br</br>
+Q: Let suppose your manager comes to you and said abdullah, find out the processes that are running by amazon and just get me the process ids<br></br>
+A: So, first you write ps -ef command to see the processes that are running by amazon but it is a very long list and there’s a chance that you might skip some process so what you use?<br></br>
+Ps -ef | grep “file name”/”amazon” (only fetch the required thing out of long list)<br></br>
+You use a ps -ef | grep “amazon” command which gives you all the processes that are run by amazon but your manager wants the process id of these processes. Q: So, why manager wants process ids. A: because if he wants to kill, trip or dump the process he wants the process id<br></br>
+| (Pipe parameter)<br></br>
+ps -ef is one command and grep “amazon” is another command and who is integrating these two commands. Answer is pipe. What pipe can do? It can send the output of the first command to the second command. <br></br>
+Let suppose you create a file like vim test1.sh and in that file you write
+echo 1<br></br>
+echo 12<br></br>
+echo 11 <br></br>
+echo 55<br></br>
+echo 99<br></br>
+So, now you want to only print those numbers that contains 1, so what you can do? You simply write this command ./test1.sh | grep 1 <br></br>
+And your output is 1 11 12<br></br>
+INTERVIEW QUESTION:<br></br>
+As we discuss, ps -ef | grep “amazon” in this ps -ef gives us an output and with the help of pipeline this out is used by grep command. In the same way we see about ./test.sh | grep 1. <br></br>
+But when we see about this command date | echo “today is “. We expected our output something like this: today is: Thu 12-01-2025 but our actual output is:  today is.<br></br>
+This is because date is a by default command and it sends its output to stdin not to echo,<br></br>
+In any system there are two channels or two log flows one is stdin and other us stdout or stderr <br></br>
+
 
 
 

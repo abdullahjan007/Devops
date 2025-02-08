@@ -250,6 +250,33 @@ But when we see about this command date | echo “today is “. We expected our 
 This is because date is a by default command and it sends its output to stdin not to echo,<br></br>
 In any system there are two channels or two log flows one is stdin and other us stdout or stderr <br></br>
 
+DEVOPS LECTURE 12 (Advance Shell Script):<br></br>
+Q: We have a question from previous lecture that our manager wants us to give him a process id of amazon processes running in our machine. We will see all about how we get processes running in our machine through ps -ef and then bring only amazon processes using ps -ef | grep “amazon”. It gives us all the detail of amazon processes but our manager only wants the process id of amazon not all details so we use awk command for that.
+Awk command <br></br>
+It is a process of filtering out the things. There are other commands similar to awk as well like cut and trim but awk is a powerful command. When you write ps -ef | grep “amazon” it gives you a complete sentence/detail like this:<br></br>
+root         983       1  0 07:47 ?        00:00:01 /snap/amazon-ssm-agent/9881/amazon-ssm-agent<br></br>
+ubuntu      1602    1179  0 07:55 pts/0    00:00:00 grep --color=auto amazon<br></br>
+
+but awk is process of filtering out things. In this root is a string 983 is a string and all others are string. So, we just simply write an awk command to fetch our desired thing.<br></br>
+Ps -ef | grep “amazon” | awk -F “ ” ‘{print$2}’<br></br>
+This represents column 2 from multiple rows<br></br>
+Combination of grep and awk command <br></br>
+Let suppose I create one file named test and inside that test file I write:<br></br>
+My name is Abdullah <br></br>
+My employee id is 11<br></br>
+So, outside the file when I use grep command to get name: I have to write like this:<br></br>
+Grep name test -> output is: My name is Abdullah <br></br>
+Or if I write: grep Abdullah test -> output is: My name is Abdullah <br></br>
+So, syntax of grep is: (grep, write desired thing which I want to fetch, followed by file name)<br></br>
+ Awk command<br></br>
+For awk command I just know about the correct columns number like in this case: My name is Abdullah, there are total 4 columns. So how I write awk command.<br></br>
+grep name test (not cnfrm) | awk -F “ ” ‘{print $4} -> output is Abdullah<br></br>
+While writing grep and awk, always ensure that you use the right column numbers<br></br>
+grep name test (not cnfrm) | awk -F “ ” ‘{print $4}: What this command means? In this command first grep command searches for lines in the file test.sh that contain the word "name".<br></br>
+awk -F" " tells awk to use spaces as column separators.<br></br>
+{print $4} means print the 4th word from each line found by grep.<br></br>
+
+
 
 
 

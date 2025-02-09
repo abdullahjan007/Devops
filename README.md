@@ -275,6 +275,8 @@ While writing grep and awk, always ensure that you use the right column numbers<
 grep name test (not cnfrm) | awk -F “ ” ‘{print $4}: What this command means? In this command first grep command searches for lines in the file test.sh that contain the word "name".<br></br>
 awk -F" " tells awk to use spaces as column separators.<br></br>
 {print $4} means print the 4th word from each line found by grep.<br></br>
+IMP NOTE:  The command that we are learning separately will place in the script at one place
+Like we learn about ps -ef or grep or awk we just place these commands in our script
 
 
 

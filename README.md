@@ -276,7 +276,15 @@ grep name test (not cnfrm) | awk -F “ ” ‘{print $4}: What this command mea
 awk -F" " tells awk to use spaces as column separators.<br></br>
 {print $4} means print the 4th word from each line found by grep.<br></br>
 IMP NOTE:  The command that we are learning separately will place in the script at one place
-Like we learn about ps -ef or grep or awk we just place these commands in our script
+Like we learn about ps -ef or grep or awk we just place these commands in our script<br></br>
+
+Set -e and Set -o commands<br></br>
+When we use pipeline and ps -ef or grep or awk in our script then we have to add some other things in our script as well and that other things are set -e and set -o. What they do? Answer is as follow:<br></br>
+Set -e exits the script when there is an error. Let suppose there’s an error on line 1 but rest of your script is correct so, when you don’t add set -e then what happened? Ans is  your script will run which is not a good practice. Why it is not a good practice? The reason is, if your task is to first create a user and then create a folder and then create a file in that folder but if your user creation script is wrong then what you can do with folder and file creation. So, when there’s a set -e in your script. It detects the error and stops executing the script.<br></br>
+Now, comes to the set -o. It is used in pipefail. Set -e is good but unable to detect the errors in case of pipeline so we use set -o. Let suppose there’s a command: <br></br>SEDEWDWEFE | echo.  Set -e consider this command as a correct command because it only checks or the validate the last command after pipe, it don’t concern about the command before pipe so that’s why we used set -o instead set -e for pipeline.<br></br>
+Set -o is also used to display shell option<br></br>
+IMP NOTE: Instead of writing set -x, set -e, set -o in a separate line. There are some people who write all this in a one line and that command is : set -exo 
+
 
 
 

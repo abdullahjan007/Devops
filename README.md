@@ -283,10 +283,25 @@ When we use pipeline and ps -ef or grep or awk in our script then we have to add
 Set -e exits the script when there is an error. Let suppose there’s an error on line 1 but rest of your script is correct so, when you don’t add set -e then what happened? Ans is  your script will run which is not a good practice. Why it is not a good practice? The reason is, if your task is to first create a user and then create a folder and then create a file in that folder but if your user creation script is wrong then what you can do with folder and file creation. So, when there’s a set -e in your script. It detects the error and stops executing the script.<br></br>
 Now, comes to the set -o. It is used in pipefail. Set -e is good but unable to detect the errors in case of pipeline so we use set -o. Let suppose there’s a command: <br></br>SEDEWDWEFE | echo.  Set -e consider this command as a correct command because it only checks or the validate the last command after pipe, it don’t concern about the command before pipe so that’s why we used set -o instead set -e for pipeline.<br></br>
 Set -o is also used to display shell option<br></br>
-IMP NOTE: Instead of writing set -x, set -e, set -o in a separate line. There are some people who write all this in a one line and that command is : set -exo 
+IMP NOTE: Instead of writing set -x, set -e, set -o in a separate line. There are some people who write all this in a one line and that command is : set -exo <br></br>
 
 
 
+Curl Command<br></br>
+Let suppose there are 100 machines or apps out of which 99 are running fine and there’s an issue in one machine/app so as a devops engineer what you do? You simply first check the log file to check about the errors but usually log files are too big so people usually stored them on github or google storage or on some amazon storge like s3. So, in order to access that log file we use the curl command. It works like the postman or alternate of POSTMAN (not cnfrm), API fetching (not cnfrm)<br></br>
+Curl file url | grep ERROR. When we write this command we get all the errors from the logfile<br></br>
+Using the curl command we can retrieve any information from any external devices or internet<br></br>
+Get Request through curl command<br></br>
+We can also do a get request through curl command:<br></br>
+Curl -X GET api.foodpanda.com<br></br>
+OUTPUT OF THE ABOVE COMMAND:<br></br>
+<html><br></br>
+<head><title>301 Moved Permanently</title></head><br></br>
+<body><br></br>
+<center><h1>301 Moved Permanently</h1></center><br></br>
+<hr><center>cloudflare</center><br></br>
+</body><br></br>
+</html><br></br>
 
 
 

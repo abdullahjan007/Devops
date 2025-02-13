@@ -303,8 +303,10 @@ OUTPUT OF THE ABOVE COMMAND:<br></br>
 </body><br></br>
 </html><br></br>
 
-
-
+Curl vs wget command<br></br>
+There’s another command similar to curl command but what’s the difference between curl command and wget command is like when you simply write curl file url | grep ERROR it displays all the errors on the terminal but what about with the wget command. It first downloads the file in your system when you write this command: wget fileurl and then after that what you can do you use cat command along with file name let suppose cat filename so, you get a display of all the logfile on your terminal and when you add grep command with logfile like this: cat filename | grep ERROR then you get only the errors from the log file.<br></br>
+Q: So, when to use curl and when to use wget?<br></br>
+A: When you want to store logfile in your system as well then use wget command otherwise use curl command.<br></br>
 
 
 

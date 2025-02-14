@@ -308,6 +308,34 @@ There’s another command similar to curl command but what’s the difference be
 Q: So, when to use curl and when to use wget?<br></br>
 A: When you want to store logfile in your system as well then use wget command otherwise use curl command.<br></br>
 
+8TH February, 2025<br></br>
+
+DEVOPS LECTURE 13 (Advance Shell Script):<br></br>
+
+Find command, root and sudo<br></br>
+Find command as its name suggests it finds the file in the machine. But for the file command we should come as a root user or just a normal user. Root user you can say that is some sort of a admin who have the most privileges. In order to be a root user you have to write the command sudo su -. Sudo means switch user do and su means switch user. 
+When I write the command find / name filename. / means all files in the machine<br></br>
+<br></br>
+
+If else<br></br>
+a=5<br></br>
+b=10<br></br>
+if[$a > $b]<br></br>
+then<br></br>
+	echo “a is greater”<br></br>
+else<br></br>
+	echo “b is greater”<br></br>
+fi<br></br>
+for loop<br></br>
+for i in [1.100]; do echo “$1”;done<br></br>
+for<br></br>
+do<br></br>
+	increment<br></br>
+done<br></br>
+
+trap command<br></br>
+trap command is a complex command. We used this command rarely in our script. It is used to trap the signals. Let suppose in a terminal you use ctrl c command to stop the execution so your terminal gets a signal like you have to stop or kill the execution. Let suppose you want that your process should not be kill by someone by writing or clicking some command. It should be kill by itself when there’s any issue or authorize access so what you can do? You can use a trap command which trap the signal. The command is: trap echo”don’t access without the permission of user” SIGINT (It means signal interrupt) there are multiple trap commands approximately 200.  
+
 
 
 

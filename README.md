@@ -334,7 +334,25 @@ do<br></br>
 done<br></br>
 
 trap command<br></br>
-trap command is a complex command. We used this command rarely in our script. It is used to trap the signals. Let suppose in a terminal you use ctrl c command to stop the execution so your terminal gets a signal like you have to stop or kill the execution. Let suppose you want that your process should not be kill by someone by writing or clicking some command. It should be kill by itself when there’s any issue or authorize access so what you can do? You can use a trap command which trap the signal. The command is: trap echo”don’t access without the permission of user” SIGINT (It means signal interrupt) there are multiple trap commands approximately 200.  
+trap command is a complex command. We used this command rarely in our script. It is used to trap the signals. Let suppose in a terminal you use ctrl c command to stop the execution so your terminal gets a signal like you have to stop or kill the execution. Let suppose you want that your process should not be kill by someone by writing or clicking some command. It should be kill by itself when there’s any issue or authorize access so what you can do? You can use a trap command which trap the signal. The command is: trap echo”don’t access without the permission of user” SIGINT (It means signal interrupt) there are multiple trap commands approximately 200.  <br></br>
+
+INTERVIEW QUESTIONS<br></br>
+Grep -o “s” <<<”$x” | wc -l<br></br>
+-o in grep means only “s” means (only grep s of word Singapore) which is stored in x. It gives us the out 1 and the command wc -l means to count the length of word count,<br></br>
+
+Crontab<br></br>
+It is a linux command its work is simple like an alarm. Let suppose you are a linux admin and your job is to check the node health and give a report at every 6pm so instead of logging in every day. You simply use the crontab command<br></br>
+Q: How we can open in the read only mode?<br></br>
+A: vim -r test.txt<br></br>
+
+SoftLink vs HardLink<br></br>
+Softlink is like you create a file and save it in memory<br></br>
+Hardlink is like you frequently use a file like copy it and modify it etc. So, instead of writing the cp command every time you just create a hardlink to any of the file(mirror a specific file) So, it creates a hardlink to the original file like if the original files get deleted, the other file remains same. (not cnfrm)<br></br>
+
+Like python 3-> python<br></br>
+./python <br></br>
+So, this python actually refers to python3 and when you use ./python it actually executes python3 so python has a soft link to python 3 or we can say that python is an alias of python3 in memory and when we delete python3 python also gets deleted so it is a soft link<br></br>
+
 
 
 

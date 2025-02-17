@@ -353,6 +353,23 @@ Like python 3-> python<br></br>
 ./python <br></br>
 So, this python actually refers to python3 and when you use ./python it actually executes python3 so python has a soft link to python 3 or we can say that python is an alias of python3 in memory and when we delete python3 python also gets deleted so it is a soft link<br></br>
 
+Q: is bash dynamically or statically typed?<br></br>
+A: Modern day languages like golang are statically typed and python are dynamically typed:<br></br>
+e.g:<br></br>
+python:<br></br>
+x=5<br></br>
+x=”string”<br></br>
+golang:<br></br>
+var x string <br></br>
+(so, if you put numbers in x then it gives an error like x is expecting a string) <br></br>
+
+Traceroute is used for network troubleshooting utility<br></br>
+Let suppose your network is slow so, you simply write this command:<br></br>
+Traceroute google.com<br></br>
+We are trying to reach the google.com and see about the number of hops between traceroute and google.com<br></br>
+From my laptop it will reach to the router from there it will reach to ISP router and from there it will take multiple hops and reach google.com.<br></br>
+So, this command in short tells us about the how many hops and how much time each hop take<br></br>
+
 
 
 

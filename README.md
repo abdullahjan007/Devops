@@ -371,6 +371,14 @@ From my laptop it will reach to the router from there it will reach to ISP route
 So, this command in short tells us about the how many hops and how much time each hop take<br></br>
 
 
+Q: How will you sort list of names in a file?<br></br>
+A: sort command<br></br>
+
+Q: How will you manage logs of a system that generate logfiles everyday?<br></br>
+A: So, in that case we use Logrotate command to upload our files somewhere out of the disk (not cnfrm)
+We give it a proper format like Logrotate(gzip,etc)<br></br>
+
+
 
 
 

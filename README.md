@@ -376,7 +376,7 @@ A: sort command<br></br>
 
 Q: How will you manage logs of a system that generate logfiles everyday?<br></br>
 A: So, in that case we use Logrotate command to upload our files somewhere out of the disk (not cnfrm)
-We give it a proper format like Logrotate(gzip,etc)<br></br>
+We give it a proper format like Logrotate(gzip,etc)<br></br><br></br>
 
 
 

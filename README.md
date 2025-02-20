@@ -376,7 +376,24 @@ A: sort command<br></br>
 
 Q: How will you manage logs of a system that generate logfiles everyday?<br></br>
 A: So, in that case we use Logrotate command to upload our files somewhere out of the disk (not cnfrm)
-We give it a proper format like Logrotate(gzip,etc)<br></br><br></br>
+We give it a proper format like Logrotate(gzip,etc)<br></br>
+
+11st February, 2025<br></br>
+
+DEVOPS LECTURE 14 (Live AWS Project using SHELL SCRIPTING for DevOps):<br></br>
+Q: Why organizations move towards cloud architecture?<br></br>
+A: Reason for moving towards cloud architecture is:<br></br>
+1.	Management/manageability<br></br>
+2.	Cost<br></br>
+Let suppose you are starting a startup so in order to have a server, you must have data centers, you have to do a patching for security reasons and you must dedicate a proper team to manage and maintain these servers. And if you don’t use the server for a certain period of time then still you have to pay for it because it is in your data center but for cloud services you only pay for that time when you use the services. So, instead of doing all this one can simply move towards cloud architecture
+Let suppose there are 100 employees in your company and every employee has an access to aws or aws resources. So, now it’s aws admin or devops engineer responsibility to check that either employee are using or utilizing aws services efficiently or not. Let suppose there’s one employee name x who create 100 EC2 instances that are used by no one or create EBs volume that are used by none of the EC2 instance but aws charged you for this because aws said I create/give a volume and instance to you, now you use it or not its not my responsibility. Give me my money. So, as aws admin or devops engineer must have a proper method and mechanism to check all this like your employee doesn’t waste any resources. <br></br>
+
+As a devops engineer, your primary responsibility is to maintain the cost effectiveness and for that purpose you have to track the resource usage (Tracking resource usage). There are multiple ways for tracking resource usage. We don’t say shell scripting is an optimal way to do that there are multiple other ways like lambda function, python (boto3) as well.<br></br>
+
+
+Now, let suppose there’s an organization name example.com and this organization use the resources like EC2, S3, lambda and IAM and your job is to keep track of resource usage by providing a detail to your manager on 6pm every day. (This is just for understanding. Devops engineer usually don’t follow this approach to send to the manager. They usually send tracking report to the reporting dashboard with the help of script).
+Now how you use scripts to keep record or track. So, you write a script in which you create a file and in that file all the details are present like: instance active time, inactive time etc<br></br>
+
 
 
 

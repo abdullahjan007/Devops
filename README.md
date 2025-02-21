@@ -395,6 +395,10 @@ Now, let suppose there’s an organization name example.com and this organizatio
 Now how you use scripts to keep record or track. So, you write a script in which you create a file and in that file all the details are present like: instance active time, inactive time etc<br></br>
 
 
+CronJob<br></br>
+There’s a one thing to notice is we say to provide a detail resource tracking report to manager at 6pm every day. So, one way is that we have to run the script everyday at 6pm but what happened if we are not present at that time? If we are not present, then we use the cronjob and integerate it with our script so report will automatically send to the manager without running the script at 6pm. The purpose of cronjob is just like a timmer or alarm(Let suppose I have a youtube page and I have to upload a video on it at 7 pm but I am busy at 7 pm so what I can do? I simply upload a video at 3pm and set a timmer of 7pm which tells youtube to publish this video at 7pm automatically). So, cronjob is exactly the same<br></br>
+
+What we can do at the end of the day? We are simply write shellscript and integrate it with cronjob<br></br>
 
 
 

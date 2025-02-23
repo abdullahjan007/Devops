@@ -400,6 +400,14 @@ There’s a one thing to notice is we say to provide a detail resource tracking 
 
 What we can do at the end of the day? We are simply write shellscript and integrate it with cronjob<br></br>
 
+Pipe more (| more)<br></br>
+Using pipe more we can easily read output in a better way<br></br>
+
+Aws  s3 ls<br></br>
+Aws ec2 describe-instances<br></br>
+Aws lambda list-functions<br></br>
+Aws iam list-users<br></br>
+
 
 
 

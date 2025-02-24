@@ -408,6 +408,26 @@ Aws ec2 describe-instances<br></br>
 Aws lambda list-functions<br></br>
 Aws iam list-users<br></br>
 
+JQ and YQ commands<br></br>
+There are two very important commands jq and yq means json parser and yml parser respectively. Why these commands used? Answer is when when I write the above script it gives me all the detail, or list all the instances, lambda functions, s3 buckets etc but we only want the instance id so what we can do we simple use jq command. Let suppose I want an instance id of all my ec2 instances and this instance id is in instance locator which is also in resource locator so, how I write the command? The command is as follow:
+aws ec2 dessccribe-instances | jq ‘.ResourceLocator[] .InstanceLocator[] . instanceId’<br></br>
+In this way I get the instance id  (And this resource locator and instance locator are hypothethical it may vary in other machines)<br></br>
+
+Now I want to add this script in my cronjob but before that I have to add this in file. So, how I can do that? I simply use ‘>’<br></br>
+
+Aws  s3 ls > resourceTracker(name of the file)<br></br>
+aws ec2 describe-instances | jq ‘.ResourceLocator[] .InstanceLocator[] . instanceId’ >> resourceTracker :q!<br></br>
+Aws lambda list-functions > resourceTracker<br></br>
+Aws iam list-users > resourceTracker<br></br>
+
+After this integerate this with crontab which is our homework<br></br>
+Homework Solution: <br></br>
+We can simply run the crontab configuration using config -e<br></br>
+And then write: 0 20 * * * /path to your script.sh<br></br>
+(0 20 * * * * means that report will send to manager or reporting dashboard at exactly 8pm)<br></br>
+save and exit the crontab editor<br></br>
+
+There are 5 stars in crontab with space seperattion * * * * * in these five stars first two represents hours and minute(first represents minutes and second represents hours) and the rest 3 represents day of month, month, day of week respectively<br></br>
 
 
 

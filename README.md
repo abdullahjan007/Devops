@@ -429,6 +429,19 @@ save and exit the crontab editor<br></br>
 
 There are 5 stars in crontab with space seperattion * * * * * in these five stars first two represents hours and minute(first represents minutes and second represents hours) and the rest 3 represents day of month, month, day of week respectively<br></br>
 
+17th February, 2025<br></br>
+
+DEVOPS LECTURE 15 (Shell Scripting Project GitHub Integeration):<br></br>
+Let suppose as a devops engineer you maintain a github repositiory and monitor this repo for all type of vulnerabilities Ci/CD etc. Now assume someone came and say abdullah I want to see the number of collaborators on this repo so what you can do you can go to settings and then click on collaborators and then share the screenshot with that person so as a devops engineer you maintain all these things.<br></br>
+Now assume another case, let suppose a person is resigning from an organization so as a devops engineer what your job is to revoke all of its permissions in the repo and if someone have a read access and now want a write access in the repo so a as a devops engineer you can give access to him.<br></br>
+So, in short devops engineer have a lot of work with github repo that he/she maintain. So, instead of doing all this stuff manually or with the help UI. What we can do? We simply write the shell scripts and what the shell scripts required? Shell scripts require a github integeration<br></br>
+
+How does this github integeration work? <br></br>
+On a broader level there are two ways to integerate or talk to any application:<br></br>
+One is API and other is CLI. So, we can talk to the applications like Github, Jenkins or Kubernetes with the help API. Kuberenetes most of the time use KubeCLT which is an easy utility instead of Api. In the same way github also uses CLI but for github API is preferable because it is present for a long time and with the help of shell scripting we can easily talk with the Api of any application and get our required data. <br></br>
+
+Let suppose you write a github.com on search bar and github page opens so it means you communicate with the application through User interface but you can also communicate with the application programmatically like you use curl command to fetch Api in shell scripting (curl -x url with http protocol) or request command in python or with postman (And you can communicate programmatically only when these applications expose their API’s). So, when you use scripts or postman to communicate or talk with application, then it means you communicate with application programmatically.<br></br>
+
 
 
 Author-Abdullah

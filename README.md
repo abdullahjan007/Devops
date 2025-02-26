@@ -442,6 +442,10 @@ One is API and other is CLI. So, we can talk to the applications like Github, Je
 
 Let suppose you write a github.com on search bar and github page opens so it means you communicate with the application through User interface but you can also communicate with the application programmatically like you use curl command to fetch Api in shell scripting (curl -x url with http protocol) or request command in python or with postman (And you can communicate programmatically only when these applications expose their API’s). So, when you use scripts or postman to communicate or talk with application, then it means you communicate with application programmatically.<br></br>
 
+Q: Is devops engineer write API’s? <br></br>
+A: No, as a devops engineer you only use or consume the Api’s. example is BOTO3.<br></br>
+In order to talk to aws, you simply use the aws CLI utility to talk to the aws. It is the CLI way of talking/interacting with aws.<br></br>
+
 
 
 Author-Abdullah

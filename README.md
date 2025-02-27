@@ -446,6 +446,11 @@ Q: Is devops engineer write API’s? <br></br>
 A: No, as a devops engineer you only use or consume the Api’s. example is BOTO3.<br></br>
 In order to talk to aws, you simply use the aws CLI utility to talk to the aws. It is the CLI way of talking/interacting with aws.<br></br>
 
+The other way is you write a python program/script that uses BOTO3 which further interact with aws. It is the API way of talking/interacting with aws.<br></br>
+
+For every API, there’s an API reference documnetation<br></br>
+In order to communicate via API, devops engineer must go through API reference because devops engineer know how to use curl or request command but he don’t know how a certain API is written by developer or what is the url of a certain API or how a certain info should be get through url/api so, for that purpose he must go through the API reference.<br></br>
+
 
 
 Author-Abdullah

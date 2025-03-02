@@ -451,8 +451,7 @@ The other way is you write a python program/script that uses BOTO3 which further
 For every API, there’s an API reference documnetation<br></br>
 In order to communicate via API, devops engineer must go through API reference because devops engineer know how to use curl or request command but he don’t know how a certain API is written by developer or what is the url of a certain API or how a certain info should be get through url/api so, for that purpose he must go through the API reference.<br></br>
 
-<br></br>
-
+Let suppose I want a pull request in my repo. It is very easy in UI like I simple click on pull request and see all the lists of pull request. But how I can do this with scripts for that what url or what api url should I target in my scripts so that I get a list pull requests of my repo? So, for that first I go to github api doc and then on pull where I get the url and then add in the script will give me the list of pull requests.<br></br>
 
 
 Author-Abdullah

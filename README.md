@@ -453,5 +453,6 @@ In order to communicate via API, devops engineer must go through API reference b
 
 Let suppose I want a pull request in my repo. It is very easy in UI like I simple click on pull request and see all the lists of pull request. But how I can do this with scripts for that what url or what api url should I target in my scripts so that I get a list pull requests of my repo? So, for that first I go to github api doc and then on pull where I get the url and then add in the script will give me the list of pull requests.<br></br>
 
+As a devops engineer, you maintain multiple github repositiories, manage multiple teams and each team have their own github repo and you grant them a right/proper access like which person can read which repo and which person can write which repo etc and then you can do CI/CD blaaa etc… <br></br>
 
 Author-Abdullah

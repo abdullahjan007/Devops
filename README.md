@@ -457,6 +457,7 @@ As a devops engineer, you maintain multiple github repositiories, manage multipl
 
 In today’s lecture we write a script that displays a list of people who have access to the repo. 
 Let say, someone resign from the company and today is his last day so as a devops engineer you see a list of people and if that person is granted an access you just simply revoke that access. Now every time you don’t need to go to github repo and then click on settings and then go to colloborators list blaa blaaa..So, what you can do? You simply list people who have access to the repo and if that resigning person have access so simply with shell scripting or with UI you revoke its access. So, inshort we automate the process with the help of scripts<br></br>
+<br></br>
 
 
 Author-Abdullah

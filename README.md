@@ -457,7 +457,8 @@ As a devops engineer, you maintain multiple github repositiories, manage multipl
 
 In today’s lecture we write a script that displays a list of people who have access to the repo. 
 Let say, someone resign from the company and today is his last day so as a devops engineer you see a list of people and if that person is granted an access you just simply revoke that access. Now every time you don’t need to go to github repo and then click on settings and then go to colloborators list blaa blaaa..So, what you can do? You simply list people who have access to the repo and if that resigning person have access so simply with shell scripting or with UI you revoke its access. So, inshort we automate the process with the help of scripts<br></br>
-<br></br>
+
+Let suppose you go to git hub repo github.com/kuberbetes/kubernest this is the official kuberenetes source code repo and you cannot see the collaborators in it because you are not the owner of this repo but most of the time these open source repos contains a file name owners in which all the collaborators are mentioned but when you are working in an organization as a devops engineer then you have an access of the collaborators. You simply click on the setting and then on the collaborators list. But this is the very boring task like everytime you have to login to the github and then search for the repo and then go to the settings and then on the collaborators. So, in order to get rid of this boring task we simply write a script that will display the list of collaborators of a specific repo<br></br>
 
 
 Author-Abdullah

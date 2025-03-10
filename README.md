@@ -460,5 +460,17 @@ Let say, someone resign from the company and today is his last day so as a devop
 
 Let suppose you go to git hub repo github.com/kuberbetes/kubernest this is the official kuberenetes source code repo and you cannot see the collaborators in it because you are not the owner of this repo but most of the time these open source repos contains a file name owners in which all the collaborators are mentioned but when you are working in an organization as a devops engineer then you have an access of the collaborators. You simply click on the setting and then on the collaborators list. But this is the very boring task like everytime you have to login to the github and then search for the repo and then go to the settings and then on the collaborators. So, in order to get rid of this boring task we simply write a script that will display the list of collaborators of a specific repo<br></br>
 
+<br></br>
+22nd February, 2025 <br></br>
+Day 8 of devops zero to hero done but practice not done so after FYP presentation 1 must do the practice of day 8 <br></br>
+
+24th February, 2025 <br></br>
+
+DEVOPS LECTURE 16 (Git and GitHub): <br></br>
+Before discussing about git and github, Lets first discuss about version control because for git and github the foundation is version control. Why it becomes so popular and what are the important things or problems that version control addresses. These two problems that version control addresses are as follow:<br></br>
+1.	Sharing<br></br>
+2.	Versioning<br></br>
+
+
 
 Author-Abdullah

@@ -471,6 +471,7 @@ Before discussing about git and github, Lets first discuss about version control
 1.	Sharing<br></br>
 2.	Versioning<br></br>
 
+Let suppose there are 2 developers dev1 and dev2 and both of them are in same team and working on the same application (let suppose they are building and calculator) now dev1 works on the addition functionality and dev2 works on subtraction functionality. But at the end of the day they have to build the calculator their code must be on in one centralized place so for that reason they share code with eachother but code can be share through mails, slack and other platforms as well so why there’s a need of version control. See, we take a very basic example of calculator but in organization developers are building a very large large and heavy applications have a multiple files and dependencies so sharing through email or slack creates a lot of problems so that’s why version control is needed.<br></br>
 
 
 Author-Abdullah

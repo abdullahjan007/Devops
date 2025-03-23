@@ -476,6 +476,10 @@ Let suppose there are 2 developers dev1 and dev2 and both of them are in same te
 Now come towards the second part which is versioning. Let suppose you are dev1 who is working on addition functionality. At first, you get a requirement to implement addition function for two numbers and then requirements gets changes and you get a requirement to build for a 3 numbers and then when calculator is delivered to the customers. The stakeholders then feel that only addition with two numbers is enough there’s a need for three numbers so now you have to again go to previous version or modify your code according to requirement of previous version. See again it is very simple example that we take. But in large organizations you modify 100 files or 50 files each day so when someone come and say what are the modification you did 3 days back so with the help of versioning you can simply go to the previous version and modify accordingly.   <br></br>
 
 We are saying that version control is the main thing so why git becomes very popular. Reason is git is a distributed version control system.<br></br>
-Git becomes popular within 10-15 years. Before this 10-15 years, the other version control tools are svn and cvs but what is difference between them or git (In more simple words, what makes git more popular amoung cvs or svn?) Answer is: cvs and snv are centralized version control systems and git is the distributed version control system.
+Git becomes popular within 10-15 years. Before this 10-15 years, the other version control tools are svn and cvs but what is difference between them or git (In more simple words, what makes git more popular amoung cvs or svn?) Answer is: cvs and snv are centralized version control systems and git is the distributed version control system.<br></br>
+
+Q: What is difference between centralized version control system and distributed version control system?<br></br>
+A: Let’s take a previous example of dev1 and dev2 who are working on creating a calculator so if they communicate through centralized version control system then it means dev1 first send files to centralized system and then dev2 can take that files from centralized system but why it is not preferable because sometime centralized system gets down so there’s a no communication between developers <br></br>
+
 
 Author-Abdullah

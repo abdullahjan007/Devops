@@ -481,5 +481,6 @@ Git becomes popular within 10-15 years. Before this 10-15 years, the other versi
 Q: What is difference between centralized version control system and distributed version control system?<br></br>
 A: Let’s take a previous example of dev1 and dev2 who are working on creating a calculator so if they communicate through centralized version control system then it means dev1 first send files to centralized system and then dev2 can take that files from centralized system but why it is not preferable because sometime centralized system gets down so there’s a no communication between developers <br></br>
 
+Now take an example of distributed version control system. In this, a copy of an entire source code is made which is called fork.  Dev1 send file to distributed system and dev2 can take that file from the distributed system but both dev1 and dev2 can make multiple copies of their distributed system which is called as fork so in any case if distributed system gets down, still developers can communicate through copies which they create.<br></br>
 
 Author-Abdullah

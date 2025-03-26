@@ -483,4 +483,7 @@ A: Let’s take a previous example of dev1 and dev2 who are working on creating 
 
 Now take an example of distributed version control system. In this, a copy of an entire source code is made which is called fork.  Dev1 send file to distributed system and dev2 can take that file from the distributed system but both dev1 and dev2 can make multiple copies of their distributed system which is called as fork so in any case if distributed system gets down, still developers can communicate through copies which they create.<br></br>
 
+Q: What is the difference between git and github?<br></br>
+A: Git is a distributed version control system. An open source, which one can easily download and implement in an organization. How can we do? We create an EC2 instance and in that we install the git and say that every developer have to commit the changes in git server. Let suppose there are three developers? What they can do? They simple create and ec2 instance and in that they install/download git and commit their code on a centralized system. <br></br>
+
 Author-Abdullah

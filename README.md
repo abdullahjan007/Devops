@@ -486,4 +486,11 @@ Now take an example of distributed version control system. In this, a copy of an
 Q: What is the difference between git and github?<br></br>
 A: Git is a distributed version control system. An open source, which one can easily download and implement in an organization. How can we do? We create an EC2 instance and in that we install the git and say that every developer have to commit the changes in git server. Let suppose there are three developers? What they can do? They simple create and ec2 instance and in that they install/download git and commit their code on a centralized system. <br></br>
 
+What github does? It provides a solution on the top of the git. People find the industry gap and creates a github by providing the multiple solutions on the top of git. But we can use the git as well without github. There are other similar things like github as well which are gitlab etc.<br></br>
+
+Now we will do a practical hands-on git. First we install a git and then use it. There are three most important commands of git that every devops engineer must know. <br></br>
+1.	Git add<br></br>
+2.	Git commit filename (through this command git can keep track of the file or keep track of verisioning)<br></br>
+3.	Git push (not cnfrm)<br></br>
+
 Author-Abdullah

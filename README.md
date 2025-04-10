@@ -493,4 +493,22 @@ Now we will do a practical hands-on git. First we install a git and then use it.
 2.	Git commit filename (through this command git can keep track of the file or keep track of verisioning)<br></br>
 3.	Git push (not cnfrm)<br></br>
 
+Q: how can we see the hidden git repository that is created through git init?<br></br>
+A: we can see this by typing ls -la command<br></br>
+
+Every file that we created in git is tracked as objects. When we do ls .git it shows<br></br>
+HEAD config hooks objects refs (references and objects are something like refrences to objects) and hooks are something like if someone unintentionally type password or Api token so it is used to prevent such things and config is used for configurations like to secure your secret git repos<br></br>
+
+Git diff is a command that tells us exactly what changes are made<br></br>
+We initialize git, we add it or keep track of it through git add but our main aim is to keep track of versioning so for that we use git commit file name to keep track of version 1, version 2 etc.<br></br>
+
+With git log we can see details of all the versions like author, date, time, commit id etc.<br></br>
+
+Let suppose i am at are version 2 and my product Manager came and said Abdullah version 2 creates a lot of issues lets go back to our previous version so in that case what I can do? I simply first write git log and copy the commit id of the previous version and then i write this command:
+Git reset –hard commit id (This is a one way to do this, there are multiple other ways as well. The primary thing here that our instructor shows us here is how we can switch to multiple versions in git)<br></br>
+This will take me to the previous version and the contents in the file are also of the previous version.<br></br>
+
+Till now we discussed all about versioning but now from here we discuss all about sharing like how we share the code/files with others<br></br>
+ Creating copies of the system is nothing just a fork. Or with fork you can also collaborate with other developers.<br></br>
+
 Author-Abdullah

@@ -511,4 +511,11 @@ This will take me to the previous version and the contents in the file are also 
 Till now we discussed all about versioning but now from here we discuss all about sharing like how we share the code/files with others<br></br>
  Creating copies of the system is nothing just a fork. Or with fork you can also collaborate with other developers.<br></br>
 
+DEVOPS LECTURE 17 (Git Branching):<br></br>
+Git Branching is very important. What every organization wants? The primary goal of every organization is that its customer wants releases on time. Like when we use daraz, flipkart etc they provide new features after every 2-3 months.<br></br>
+
+Kubernetes have 3300 contributors and after every 3 months they are adding a new feature as well.<br></br>
+Q: What is branch in git?<br></br>
+A: Branching is simply a separation. Let suppose we have an existing code of calculator which usually present in our main/master branch and now we are adding more functionalities in our calculator code so instead of doing all this in main branch. What we do? We create a branch (which we usually called as version 2 or give any other name which you want)  and then add a new code in that newly created branch, test that code and when our developers are confident that the code works fine with existing code then merge the code with existing code (which is in main/master branch) and then remove the branch which you created (like version 2 in this case).<br></br>
+
 Author-Abdullah

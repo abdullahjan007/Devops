@@ -518,4 +518,13 @@ Kubernetes have 3300 contributors and after every 3 months they are adding a new
 Q: What is branch in git?<br></br>
 A: Branching is simply a separation. Let suppose we have an existing code of calculator which usually present in our main/master branch and now we are adding more functionalities in our calculator code so instead of doing all this in main branch. What we do? We create a branch (which we usually called as version 2 or give any other name which you want)  and then add a new code in that newly created branch, test that code and when our developers are confident that the code works fine with existing code then merge the code with existing code (which is in main/master branch) and then remove the branch which you created (like version 2 in this case).<br></br>
 
+Q: What is good branching strategy?<br></br>
+A:  We have an existing code in master branch and as time passes we are adding new features. Now we decided to add a percentage functionality to our existing calculator code but our developer’s don’t know like when this feature will be completed so they create a feature branch in which they develop the feature and when they are confident they add this feature to the master branch. The illustration of this concept is as follow:<br></br>
+Till now we discuss about master branches and feature branches. Now, we discuss all about release branches.<br></br>
+
+The end goal of every application is to deliver it to the customer. So, you build the release branch and then through release branch customer gets the application. You don’t deliver through the master branch because in master branch developers are actively developing or testing new features. Once, all the features are tested in master branch they are then deliver to release branch and from that customer gets the application. <br></br>
+The illustration of release branch is as follow:<br></br>
+
+
+
 Author-Abdullah

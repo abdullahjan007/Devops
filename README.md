@@ -525,6 +525,16 @@ Till now we discuss about master branches and feature branches. Now, we discuss 
 The end goal of every application is to deliver it to the customer. So, you build the release branch and then through release branch customer gets the application. You don’t deliver through the master branch because in master branch developers are actively developing or testing new features. Once, all the features are tested in master branch they are then deliver to release branch and from that customer gets the application. <br></br>
 The illustration of release branch is as follow:<br></br>
 
+Sometimes we also have a hot-fix branches (very quick changes) like customer are having a very critical issue on the production and he wants the immediate changes so you quickly fix those issue and send to master and release branch which further ship to customer and these hotfixes might be live for 1 day or 2 day and then deleted afterwards.
+In short there are mainly 4 important branches:<br></br>
+1. Master/Main branch<br></br>
+2. Feature Branch<br></br>
+3. Release Branch<br></br>
+4. Hot-fix Branch/bug-fix (This is a very short lived branch). Let suppose you release version 3 and after 3-4 days customer said that there’s some issue in production so you quickly create a hot fix branch. Resolve all the issue, merged it with main branch and then delete it<br></br>
+
+Master is always up-to-date about the application. It is always updated about all the changings, features etc.<br></br>
+Release branch is created from the latest master branch and all the code is also tested on the release branch as well which is further shipped to the customer after a successful testing at release branch.<br></br>
+
 
 
 Author-Abdullah

@@ -541,6 +541,9 @@ Git checkout filename removes or delete all the changes. We must have to do a ad
 Q: What is the purpose of git commit command?<br></br>
 A: With every change we did a commit means we save that change and let suppose there is some developer who made 100 commits and insert a subtraction functionality in the calculator code but after inserting subtraction functionality our calculator is not working fine so, with the help of git log we are able to see the person who made commits along with date and time and we can easily move towards the previous version where code is working fine. <br></br>
 
+GIT PUSH<br></br>
+After git add and git commit you have to push the code at some remote repository like (github, self-hosted git, bit bucket etc) where your team members can have access to your code. Till now your code is in your local machine. So, when you write git push nothing happens means your code is not pushed to any remote repository. The reason is your code is on local machine and you have initialized and created repository locally through CLI so it doesn’t target any remote repository. In order to make it target or push to any remote repository you have to add the remote path use the command git remote add “location”.<br></br>
+In case of already existing repo, you simply clone that repo through git clone “url”. By writing this command, repo is downloaded locally in your machine and any changes you made or push is referred to that repo. We can also get the remote reference through this command -> git remote -v.<br></br>
 
 
 

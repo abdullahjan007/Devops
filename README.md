@@ -535,6 +535,13 @@ In short there are mainly 4 important branches:<br></br>
 Master is always up-to-date about the application. It is always updated about all the changings, features etc.<br></br>
 Release branch is created from the latest master branch and all the code is also tested on the release branch as well which is further shipped to the customer after a successful testing at release branch.<br></br>
 
+DEVOPS LECTURE 18 (Git Interview Q&A and Commands):<br></br>
+The main purpose of git or .git is to keep track, log the files, folders, changes etc. At first you write git init to initialize the .git in your local. Now, git is present but it don’t know which file or folder it have to track. So, in order to make it track the file or folder we have to write the git add filename. After this, .git knows which file it has to track. Sometime developers unintentionally push their secret code/password to git so there’s a file name hook which prevent developers from unintentionally share the passwords. Command is ->  .git/hooks/pre-commit<br></br>
+Git checkout filename removes or delete all the changes. We must have to do a add before commit. If we don’t add then our .git don’t know about the changes.<br></br>
+Q: What is the purpose of git commit command?<br></br>
+A: With every change we did a commit means we save that change and let suppose there is some developer who made 100 commits and insert a subtraction functionality in the calculator code but after inserting subtraction functionality our calculator is not working fine so, with the help of git log we are able to see the person who made commits along with date and time and we can easily move towards the previous version where code is working fine. <br></br>
+
+
 
 
 Author-Abdullah

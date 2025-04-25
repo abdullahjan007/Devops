@@ -545,6 +545,20 @@ GIT PUSH<br></br>
 After git add and git commit you have to push the code at some remote repository like (github, self-hosted git, bit bucket etc) where your team members can have access to your code. Till now your code is in your local machine. So, when you write git push nothing happens means your code is not pushed to any remote repository. The reason is your code is on local machine and you have initialized and created repository locally through CLI so it doesn’t target any remote repository. In order to make it target or push to any remote repository you have to add the remote path use the command git remote add “location”.<br></br>
 In case of already existing repo, you simply clone that repo through git clone “url”. By writing this command, repo is downloaded locally in your machine and any changes you made or push is referred to that repo. We can also get the remote reference through this command -> git remote -v.<br></br>
 
+AFTER SUCCESS OF 3 DAYS:<br></br>
+Ma both dino say github pay file push karney ki try kar rha tha but file push nhi ho rhi thi both sarey errors a rhy thay.<br></br> 
+Aik Command jo ma likh rha tha jis pay error a rha tha wo ye ha -> git push origin main<br></br>
+Error is as below:<br></br>
+error: src refspec main does not match any <br></br>
+error: failed to push some refs to 'http://github.com/abdullahjan007/GitPractice'<br></br>
+Jb mainey github say poch tou us nay ye following reasons btaye is errors kay: <br></br>
+This error usually means that Git can't find a branch named main in your local repository. It typically happens when:<br></br>
+1.	The default branch is not named main (it's master or something else).<br></br>
+2.	You haven't made any commits yet.<br></br>
+3.	You haven't created the main branch locally.<br></br>
+Un errors ko resolve karney ka tareeqa gpt nay ye btaya:<br></br>
+
+
 
 
 Author-Abdullah

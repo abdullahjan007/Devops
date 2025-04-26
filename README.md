@@ -558,6 +558,37 @@ This error usually means that Git can't find a branch named main in your local r
 3.	You haven't created the main branch locally.<br></br>
 Un errors ko resolve karney ka tareeqa gpt nay ye btaya:<br></br>
 
+✅ Steps to Fix It:<br></br>
+✅ Option 1: Check your local branch name<br></br>
+Run:<br></br>
+git branch<br></br>
+If you see:<br></br>
+* master<br></br>
+It means your current branch is named master, not main.<br></br>
+In that case, push using:<br></br>
+git push origin master<br></br>
+________________________________________<br></br>
+✅ Option 2: Rename local branch to main (if needed)<br></br>
+If you want to follow the new Git convention and rename to main:<br></br>
+git branch -m main<br></br>
+git push -u origin main<br></br>
+________________________________________<br></br>
+✅ Option 3: Commit something first<br></br>
+If your repo is totally empty (no commits), then you’ll also get this error.<br></br>
+Do this:<br></br>
+git add .<br></br>
+git commit -m "Initial commit"<br></br>
+git push -u origin main  # or master, depending on your branch name<br></br>
+
+Second error jo a rha tha us ki reason ye thi kay ma jb git push karta tha tou wo user name or password (token ) mangta tha jo ma de deta tha but still error ata tha us ka reason ye ha kay mainey github ka remote url with respect to token set nhi kia hua tha aur ye set karney ki command ye ha -> git remote set-url origin<br></br> http://<token>@github.com/<username>/<repo><br></br>
+Tou pehle remote url set karna ha:<br></br>
+1.	git remote set-url origin http://git_hub token idher likhna ha@github.com/abdullahjan007/GitPractice<br></br>
+2.	phir git push orgin (jo bhi branch ho gi wo likhna) <br></br>
+
+3.	phir enter dabaney kay baad username aur password (token ) likhna and boom code push ho gya<br></br>
+ 
+Q: What is the git work flow used in your organization?<br></br>
+A: git add , git commit -m “” , git push<br></br>
 
 
 

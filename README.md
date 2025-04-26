@@ -590,6 +590,8 @@ Tou pehle remote url set karna ha:<br></br>
 Q: What is the git work flow used in your organization?<br></br>
 A: git add , git commit -m “” , git push<br></br>
 
+GIT CLONE<br></br>
+Clone is nothing but just download a code/repo. It is the process of pulling the code the code from github. Ager SSH wali setting karni ha tou vermalla ki Day 11 wali video 20:00 – 24:00 min tk dekh lo (warna chatgpt say poch poch kay bhi SSH wali setting kar saktey hain)<br></br>
 
 
 Author-Abdullah

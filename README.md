@@ -593,5 +593,12 @@ A: git add , git commit -m “” , git push<br></br>
 GIT CLONE<br></br>
 Clone is nothing but just download a code/repo. It is the process of pulling the code the code from github. Ager SSH wali setting karni ha tou vermalla ki Day 11 wali video 20:00 – 24:00 min tk dekh lo (warna chatgpt say poch poch kay bhi SSH wali setting kar saktey hain)<br></br>
 
+Q: Cloning kay through kaisey push kar saktey hain?<br></br>
+A: Simply maine saab say pehle command likh git clone https://github.com/abdullahjan007/DevProj.git (aur mainey is ko desktop pay clone kia tha)<br></br>
+Phir ma is Devproj waley folder may gya cd kay through<br></br>
+Waha pay mainey aik file bnai demo.sh kay naam say<br></br>
+Us file ko maine add kia, commit kia aur phir simple git push likha<br></br>
+Us kay baad us nay mera username aur password(token) lia and the wow meri file main branch may push ho gyi hurraahhhh!!!!!!!!!!! <br></br>
+
 
 Author-Abdullah

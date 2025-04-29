@@ -1,4 +1,4 @@
-# Devops
+d# Devops
 <br></br>
 20th January, 2025
 
@@ -599,6 +599,10 @@ Phir ma is Devproj waley folder may gya cd kay through<br></br>
 Waha pay mainey aik file bnai demo.sh kay naam say<br></br>
 Us file ko maine add kia, commit kia aur phir simple git push likha<br></br>
 Us kay baad us nay mera username aur password(token) lia and the wow meri file main branch may push ho gyi hurraahhhh!!!!!!!!!!! <br></br>
+
+Q: What is the difference between clone and fork?<br></br>
+A: Clone is simple we simply go to any public repo and download it into our local.<br></br>
+Git is a distributed version control system like code is present at one place but we can make multiple copies of same code and do a collaboration. Like my devops repo have 345 forks means 345 people created the copy of this repository to a particular date but if the original file gets updated then the fork of people will not get updated bydefault unless they do it explicitly. <br></br>
 
 
 Author-Abdullah

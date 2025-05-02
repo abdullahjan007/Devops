@@ -604,5 +604,9 @@ Q: What is the difference between clone and fork?<br></br>
 A: Clone is simple we simply go to any public repo and download it into our local.<br></br>
 Git is a distributed version control system like code is present at one place but we can make multiple copies of same code and do a collaboration. Like my devops repo have 345 forks means 345 people created the copy of this repository to a particular date but if the original file gets updated then the fork of people will not get updated bydefault unless they do it explicitly. <br></br>
 
+Fork is used to create a copy of repo whereas clone is used to download the repo <br></br>
+
+(Let suppose there’s one repo named argoproj/argo-cd. You fork this repo so now it becomes iamvermalla/argo-cd. So, now you download iamvermalla/argo-cd repo and you can collaborate with other’s on this repo (iamvermalla/argo-cd) so now whatever changes you made on (iamvermalla/argo-cd) doesnot belong to the original repo (argoproj/argo-cd) from where you fork this ). <br></br>
+
 
 Author-Abdullah

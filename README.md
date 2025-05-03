@@ -1,4 +1,4 @@
-d# Devops
+# Devops
 <br></br>
 20th January, 2025
 
@@ -608,5 +608,12 @@ Fork is used to create a copy of repo whereas clone is used to download the repo
 
 (Let suppose there’s one repo named argoproj/argo-cd. You fork this repo so now it becomes iamvermalla/argo-cd. So, now you download iamvermalla/argo-cd repo and you can collaborate with other’s on this repo (iamvermalla/argo-cd) so now whatever changes you made on (iamvermalla/argo-cd) doesnot belong to the original repo (argoproj/argo-cd) from where you fork this ). <br></br>
 
+How to create Branch through CLI<br></br>
+
+There are two ways to create branch through CLI one command is git branch (It creates an empty branch). The other command is git checkout -b nameofbranch (like division in our case). Git checkout -b it starts right from the point of previous branch.<br></br>
+Q: What git checkout -b does? Ans: Today right from that point, whatever code is present in the main branch or previous working branch it creates a branch from that point. Ab dekho aik calculator may addition or subtraction ho rhi and now client wants division as well tou humey start say shuru nhi karna parey ga balkey hum addition or subtraction kay code say agey hi next branch bnaein gay. <br></br>
+Git checkout is used to switch between branches.<br></br>
+One more thing, apney division ki functionality division branch may bna li aur commit bhi kr di but ye commit main/master branch may tb tk show nhi ho ga jb tk ap us ko merge na kr dein main/master branch may but division branch may main/master kay commits show ho gay merge say pehle bhi. Tou merge karna zaroori ha. There are three ways/commands of merge as well:<br></br>
+1.	git merge 2. Git rebase 3. Git cherry-picker.<br></br>
 
 Author-Abdullah

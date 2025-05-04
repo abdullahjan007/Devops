@@ -616,4 +616,10 @@ Git checkout is used to switch between branches.<br></br>
 One more thing, apney division ki functionality division branch may bna li aur commit bhi kr di but ye commit main/master branch may tb tk show nhi ho ga jb tk ap us ko merge na kr dein main/master branch may but division branch may main/master kay commits show ho gay merge say pehle bhi. Tou merge karna zaroori ha. There are three ways/commands of merge as well:<br></br>
 1.	git merge 2. Git rebase 3. Git cherry-picker.<br></br>
 
+First, we start with git cherry-pick because it is easy and as its names suggests it is used to pick the commits.<br></br>
+(One extra point: Let suppose you are in main branch so you simply write git log <branch name> like division in our case to get all the logs of division branch and you also write git checkout division and then git log to get all the logs of division branch. Output of both these commands is same. As git log <branch name> is an easy way so it is preferable but you can also do with other way as well).<br></br>
+
+As a devops engineer or developer, if you want changes to be shift from one branch to another, so the one of the easy way to do is with cheery-pick. Command is -> git cherry-pick <commit-id><br></br>
+By writing this command you merge the division branch with main/master branch and now division branch commits are also visible in main/master branch.<br></br>
+
 Author-Abdullah

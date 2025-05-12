@@ -622,4 +622,17 @@ First, we start with git cherry-pick because it is easy and as its names suggest
 As a devops engineer or developer, if you want changes to be shift from one branch to another, so the one of the easy way to do is with cheery-pick. Command is -> git cherry-pick <commit-id><br></br>
 By writing this command you merge the division branch with main/master branch and now division branch commits are also visible in main/master branch.<br></br>
 
+Q: If cherry-pick is easy then why we use git merge or git rebase?<br></br>
+A: cherry-pick is good if we have one or two commits but if we have thousands of commits then it is very difficult to manually go to multiple branches and copy paste the commits ids. So, for multiple commits we use git merge or git rebase.<br></br>
+Git log –oneline (This command will show the log only in one line with message and commit id)<br></br>
+e.g: 27723fassd023 first commit<br></br>
+
+Let suppose there are two developers working on a same file in different branches. So, in main branch when you are going to merge that file you got a merge conflict because git said I don’t know which change I have to keep or to keep track of<br></br>
+Q: What is the difference between git merge and git rebase?<br></br>
+A: is ko aik dafa dobara samjhna ha<br></br>
+https://youtu.be/0chZFIZLR_0?si=driO2OcOU59rsjn9<br></br>
+https://youtu.be/CRlGDDprdOQ?si=-im3Iw0d9zi2dJmW<br></br>
+
+(is video ko aik dafa dobara dekh lena ^)<br></br>
+
 Author-Abdullah

@@ -635,4 +635,9 @@ https://youtu.be/CRlGDDprdOQ?si=-im3Iw0d9zi2dJmW<br></br>
 
 (is video ko aik dafa dobara dekh lena ^)<br></br>
 
+10th April, 2025<br></br>
+
+DEVOPS LECTURE 19 (Deploy and expose application on aws):<br></br>
+In this video, we use kunal repo in which already created app is present which we will deploy today. First, we clone the git repo in our system using git clone url. After this command repo is present/cloned in our system. The reason for cloning is because we want to test our app on local environment as well. Then we write the code ..  command to open the app in VS code (reason for opening the app in vs code is: because we want set some environment variables as well before deploying). After opening this file in vs code kunal writes touch .env command on vs code terminal. (Dot .) basically shows the hidden files. These hidden files are visible in vs code but not in terminal (like mobaxterm). The reason is because there’s some sort of secret key present in hidden files like stripe secret key etc so, that’s why kunal makes this hidden. Usually enviormental variables file contains credentials or some that which is used multiple times in your app so we put that data in environment variable file. The environment variable file of that app(app which is created by kunal) is hard coded.<br></br>
+
 Author-Abdullah

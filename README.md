@@ -640,4 +640,61 @@ https://youtu.be/CRlGDDprdOQ?si=-im3Iw0d9zi2dJmW<br></br>
 DEVOPS LECTURE 19 (Deploy and expose application on aws):<br></br>
 In this video, we use kunal repo in which already created app is present which we will deploy today. First, we clone the git repo in our system using git clone url. After this command repo is present/cloned in our system. The reason for cloning is because we want to test our app on local environment as well. Then we write the code ..  command to open the app in VS code (reason for opening the app in vs code is: because we want set some environment variables as well before deploying). After opening this file in vs code kunal writes touch .env command on vs code terminal. (Dot .) basically shows the hidden files. These hidden files are visible in vs code but not in terminal (like mobaxterm). The reason is because there’s some sort of secret key present in hidden files like stripe secret key etc so, that’s why kunal makes this hidden. Usually enviormental variables file contains credentials or some that which is used multiple times in your app so we put that data in environment variable file. The environment variable file of that app(app which is created by kunal) is hard coded.<br></br>
 
+
+In AWS console, It’s is usually preferred to come with IAM user not with root user while deploying. Because root user is an administration and IAM users are those whose job responsibility and permissions are assigned by the root user/admin. <br></br>
+
+Extra Info: Digital Ocean have one of the best documentations out there for each and every topic.
+Now, you did all the step in terminal and you assumed that you application is deployed but when you write IP_address:Portnumber you saw a page which say’s (This site can’t be reached). This is the point where actual magic starts. You deploy on aws but you won’t see your app because you try to view your app on open internet and internet don’t know what is on this Ip_address and port number. So, what you have to do, you have to expose this port number on internet and for this purpose you go to you aws and allow inbound rules means you are allowing the inbound traffic and more correctly we say that, we are allowing the EC2 instance to connect with open internet and we say to aws, “Heyy, listen we have an application running to port 3000 and we want you to expose it, we want you to allow traffic to it from the open internet  <br></br>
+Extra point: 0.0.0.0/0 It means anywhere means this specific port can be access from anywhere on the internet. (Do your own research on inbound rules) <br></br>
+
+Q: How to set inbound traffic on aws? <br></br>
+A: First click on your EC2 and then scroll down and click on the security at that point there’s a security group link, click on that link and after that click on the Edit in bound Rules then click on the add rule and then save rule and hurrrraahhhh  done your port is now expose on the internet and your deploy website is visible.   <br></br>
+
+I COPIED THE FOLLOWING FROM KUNAL GITHUB : <br></br>
+Deploying a Node Js Application on AWS EC2<br></br>
+Testing the project locally<br></br>
+1.	Clone this project<br></br>
+git clone https://github.com/verma-kunal/AWS-Session.git<br></br>
+2.	Setup the following environment variables - (.env) file<br></br>
+DOMAIN= ""<br></br>
+PORT=3000<br></br>
+STATIC_DIR="./client"<br></br>
+
+PUBLISHABLE_KEY=""<br></br>
+SECRET_KEY=""<br></br>
+3.	Initialise and start the project<br></br>
+npm install<br></br>
+npm run start<br></br>
+Set up an AWS EC2 instance<br></br>
+1.	Create an IAM user & login to your AWS Console<br></br>
+o	Access Type - Password<br></br>
+o	Permissions - Admin<br></br>
+2.	Create an EC2 instance<br></br>
+o	Select an OS image - Ubuntu<br></br>
+o	Create a new key pair & download .pem file<br></br>
+o	Instance type - t2.micro<br></br>
+3.	Connecting to the instance using ssh<br></br>
+ssh -i instance.pem ubunutu@<IP_ADDRESS><br></br>
+Configuring Ubuntu on remote VM<br></br>
+1.	Updating the outdated packages and dependencies<br></br>
+sudo apt update<br></br>
+3.	Install Git - Guide by DigitalOcean<br></br>
+4.	Configure Node.js and npm - Guide by DigitalOcean<br></br>
+Deploying the project on AWS<br></br>
+1.	Clone this project in the remote VM<br></br>
+git clone https://github.com/verma-kunal/AWS-Session.git<br></br>
+2.	Setup the following environment variables - (.env) file<br></br>
+DOMAIN= ""<br></br>
+PORT=3000<br></br>
+STATIC_DIR="./client"<br></br>
+
+PUBLISHABLE_KEY=""<br></br>
+SECRET_KEY=""<br></br>
+For this project, we'll have to set up an Elastic IP Address for our EC2 & that would be our DOMAIN<br></br>
+3.	Initialise and start the project<br></br>
+npm install<br></br>
+npm run start<br></br>
+NOTE - We will have to edit the inbound rules in the security group of our EC2, in order to allow traffic from our particular port<br></br>
+Project is deployed on AWS <br></br>
+
 Author-Abdullah

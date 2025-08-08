@@ -793,5 +793,6 @@ Think of it like a remote control. You press buttons (commands), and your smart 
 Docker Volumes are used to store data outside of your container so that data doesn’t get lost when the container stops, restarts, or gets deleted.
 ✅ Real-Life Example:<br></br>
 Imagine a USB drive connected to your computer — even if you shut down or change your computer, your USB data remains. Similarly, volumes keep your data safe even if the container stops.<br></br>
+....
 
 Author-Abdullah

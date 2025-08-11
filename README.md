@@ -793,6 +793,31 @@ Think of it like a remote control. You press buttons (commands), and your smart 
 Docker Volumes are used to store data outside of your container so that data doesn’t get lost when the container stops, restarts, or gets deleted.
 ✅ Real-Life Example:<br></br>
 Imagine a USB drive connected to your computer — even if you shut down or change your computer, your USB data remains. Similarly, volumes keep your data safe even if the container stops.<br></br>
-....
+________________________________________ <br></br>
+📚 Types of Docker Volumes <br></br>
+1. Anonymous Volumes <br></br>
+•	🔹 Automatically created by Docker. <br></br>
+•	❌ No specific name is given. <br></br>
+•	🔍 Hard to track or reuse. <br></br>
+2. Named Volumes <br></br>
+•	🔹 You give the volume a name. <br></br>
+•	✅ Easy to manage, reuse, and track. <br></br>
+3. Host Volumes / Bind Mounts<br></br>
+•	🔹 You connect a folder from your host system (your computer) into the container.<br></br>
+•	🔁 Changes in one are seen in the other (real-time sync).<br></br>
+📌 What Are Bind Mounts?<br></br>
+Bind Mounts are a type of volume where you specify the exact path on your host machine to be used inside the container.<br></br>
+Think of bind mounts as a live sharing folder between your computer and the container.<br></br>
+🔧 What Is Docker Compose?<br></br>
+🔹 Simple Definition:<br></br>
+Docker Compose is a tool to define and run multi-container applications using a single YAML file (docker-compose.yml).<br></br>
+✅ Real-Life Example:<br></br>
+You have a web app, database, and backend — instead of running 3 docker run commands, you use one docker-compose up to start them all together.<br></br>
+💡 Final Example to Remember Everything<br></br>
+You create a web app. You don’t want to lose user data if the app crashes. You:<br></br>
+•	Use named volume to store user data.<br></br>
+•	Use bind mount to link your code for live changes.<br></br>
+•	Use Docker Compose to run the app, database, and cache together.<br></br>
+
 
 Author-Abdullah

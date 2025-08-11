@@ -818,6 +818,6 @@ You create a web app. You don’t want to lose user data if the app crashes. You
 •	Use named volume to store user data.<br></br>
 •	Use bind mount to link your code for live changes.<br></br>
 •	Use Docker Compose to run the app, database, and cache together.<br></br>
-
+...
 
 Author-Abdullah

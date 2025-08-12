@@ -818,6 +818,12 @@ You create a web app. You don’t want to lose user data if the app crashes. You
 •	Use named volume to store user data.<br></br>
 •	Use bind mount to link your code for live changes.<br></br>
 •	Use Docker Compose to run the app, database, and cache together.<br></br>
-...
+
+BELOW IS THE ABHISHEK SIR CONTENT<br></br>
+Virtualization is an advancement of physical servers and Containerization is an advancement of Virtualization/Virtual Machiness<br></br>
+Q: If virtual machine is working fine, then why there’s a need of containerization? <br></br>
+A: With the virtualization, a lot of resources are wasted. Let suppose you create 5 virtual machines with the help of hypervisor now each machine have 25GB Space and 8 CPU’s but your application in best time (like when there’s a maximum load on the application) uses only 10 GB and 6 CPU maximum so, 15 GB and 2 CPU resources are wasted. This is at a lower level. Just assume it when an organization have approximately 1000 EC2 instances/VM and each 1000 instances are wasted by their team/employess. So, company might face a big loss. <br></br>
+So, to solve this problem containers take place. Containers will use the virtual machines more effectively to solve this problem.<br></br>
+Virtual machines are more secure than containers because VM have their own OS but containers share their host OS.<br></br>
 
 Author-Abdullah

@@ -826,4 +826,12 @@ A: With the virtualization, a lot of resources are wasted. Let suppose you creat
 So, to solve this problem containers take place. Containers will use the virtual machines more effectively to solve this problem.<br></br>
 Virtual machines are more secure than containers because VM have their own OS but containers share their host OS.<br></br>
 
+Container Architecture:<br></br>
+There are two models for container architecture: Model 1 and Model 2<br></br>
+In Model 1, we create a containerization(docker) on the top of operating just like hypervisor and then we create multiple containers. It is created directly on the physical server. IBM/Hp are the physical servers of Model 1 as shown in the screenshot.<br></br>
+
+In Model 2, we create containerization (docker) on Virtual Machine/EC2 and then create multiple containers.<br></br>
+Model 2 is usually most preferable in organizations because in this we don’t have to maintain the physical server. Maintenance overhead is zero in model 2 because maintenance overhead is done by the cloud provider but in Model 1 we have to do the maintenance of physical sservers by ourselves, we need System Administrator etcc.<br></br>
+
+
 Author-Abdullah

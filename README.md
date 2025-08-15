@@ -840,7 +840,7 @@ Containers are usually light in weight as compared to Virtual Machines because t
 
 Let suppose you want to make a backup of your virtual machine or want an image of your virtual machine. So, you took a screen shot of VM and that screenshot/snapshot is of minimum 1GB or 2GB with all the dependencies and other resources etc. but when we discuss about containers it is only 100MBs to 500 MBs containing all the dependencies and resources. So, as you can see there’s a huge drop of size/capacity. <br></br>
 And also due to light in weight containers are easy to shift and deploy. <br></br>
-Let suppose you have a VM and on top of VM you want to run 5 containers and let’s assume first container require python, another container require java, third container requires node etc. So, what we can do? In our docker image we create a base image and in that base image we have all the system dependencies. So, this system dependencies along with application and application libraries will form a docker container or docker image. So, container use OS or base image but not complete OS. It uses only minimal OS. 
+Let suppose you have a VM and on top of VM you want to run 5 containers and let’s assume first container require python, another container require java, third container requires node etc. So, what we can do? In our docker image we create a base image and in that base image we have all the system dependencies. So, this system dependencies along with application and application libraries will form a docker container or docker image. So, container use OS or base image but not complete OS. It uses only minimal OS. <br></br>
 
 
 Author-Abdullah
